@@ -1,0 +1,56 @@
+
+.container{
+	width: 95%;
+	min-width: 1600px;
+	max-height:700px;
+	margin: auto;
+	margin-top: 24px;
+	border: 1px solid black; 
+	overflow: hidden;
+}
+.container-values{
+	width: 100%;
+	overflow-y: scroll;
+	max-height:700px;
+}
+.row{
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid gray;
+}
+.column{
+    width: 13%;
+    box-sizing: border-box;
+    border-right: 1px solid gray;
+    padding: 6px;
+    white-space: pre-line;
+}
+.column.id-column,.column-name.id-column{
+	width: 5%;
+}
+.column.name-column,.column-name.name-column{
+	width: 10%;
+}
+.column.address-column,.column-name.address-column{
+	width: 20%;
+}
+.column-name{
+    background: #BEBEBE;
+    font-weight: bold;
+    text-align: center;
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: none;
+    width: 13%;
+}
+.column-value{
+	width: 100%;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 4px;
+}
+.column-value{
+	border-bottom:1px solid gray;
+}
